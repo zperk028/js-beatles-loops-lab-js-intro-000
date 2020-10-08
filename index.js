@@ -1,9 +1,9 @@
 // add solution here
-const musicians = []
-const instruments = []
-
 
 function theBeatlesPlay (musicians, instruments) {
-  return musicians
-  return instruments
+  var array = [];
+  for (var i = 0; i < musicians.length; i++) {
+    array.push(musicians[i] + " plays " + instruments[i]);
+  }
+  return array
 }
